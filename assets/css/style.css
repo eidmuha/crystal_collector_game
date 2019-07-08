@@ -1,0 +1,9 @@
+.container{
+    width: 60%;
+    /* border: 1px solid gray; */
+}
+
+.masthead{
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
