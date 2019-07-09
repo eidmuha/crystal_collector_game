@@ -29,6 +29,9 @@ function generateRandomNumbers(){
     randomGameNumber = getRandomInt(18, 50);
     $("#randomNumber").text(randomGameNumber)
 
+    $("#wins").text(wins)
+    $("#loses").text(loses)
+
     enteredNumber = 0;
 }
 
@@ -54,6 +57,7 @@ $(function() {
 
         var myVar = (enteredNumber+=temp)
         if (randomGameNumber==enteredNumber) {
+            $("#wins").text(++wins)
             $("#rNumCrystal").text(0)
             generateRandomNumbers();
         }else if(enteredNumber>randomGameNumber){
