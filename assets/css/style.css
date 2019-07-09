@@ -7,3 +7,34 @@
     margin-top: 50px;
     margin-bottom: 30px;
 }
+
+.img-responsive{
+    max-width: 80px;
+    height: 80px;
+}
+.myCol{
+    width: 90px;
+    height: 90px;
+}
+
+html {
+    font-size: 1rem;
+  }
+  
+  @include media-breakpoint-up(sm) {
+    html {
+      font-size: 1.2rem;
+    }
+  }
+  
+  @include media-breakpoint-up(md) {
+    html {
+      font-size: 1.4rem;
+    }
+  }
+  
+  @include media-breakpoint-up(lg) {
+    html {
+      font-size: 1.6rem;
+    }
+  }
